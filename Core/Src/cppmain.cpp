@@ -18,7 +18,7 @@ void cppmain()
 	HAL_Delay(1000);
 	__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,500);
 
-	HAL_Delay (1000);
+	HAL_Delay (1);
 
 }
 }
